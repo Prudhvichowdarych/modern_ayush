@@ -1,0 +1,97 @@
+{
+    "rosemary": {
+        "uses": "Rosemary is used for flavoring in various dishes. It is also believed to have medicinal properties and is used in traditional medicine.",
+        "howToUse": "Rosemary leaves can be added to dishes while cooking. It can also be used to make herbal tea.",
+        "sideEffects": "In moderate amounts, rosemary is generally safe. However, excessive consumption can lead to digestive issues."
+    },
+    "lavender": {
+        "uses": "Lavender is known for its calming and soothing properties. It is used in aromatherapy and to make essential oils.",
+        "howToUse": "Lavender essential oil can be used in diffusers or diluted with carrier oil for massage.",
+        "sideEffects": "Lavender is safe for most people, but some may experience skin irritation with undiluted oil."
+    },
+    "turmeric": {
+        "uses": "Turmeric is a popular spice and has anti-inflammatory properties. It is used in cooking and traditional medicine.",
+        "howToUse": "Turmeric can be added to curries, soups, and teas. Turmeric supplements are also available.",
+        "sideEffects": "In moderate amounts, turmeric is safe. High doses may cause stomach discomfort."
+    },
+    "giner": {
+        "uses": "Ginger is used for its flavor and digestive benefits. It is also used as a remedy for nausea and colds.",
+        "howToUse": "Ginger can be added to various dishes and used to make ginger tea.",
+        "sideEffects": "Ginger is generally safe. Some people may experience heartburn with excessive consumption."
+    },
+    "peppemint": {
+        "uses": "Peppermint is known for its refreshing flavor and is used in culinary and herbal applications.",
+        "howToUse": "Peppermint leaves can be used in teas, desserts, and as a flavoring agent.",
+        "sideEffects": "Peppermint is safe for most people. Large quantities may cause heartburn."
+    },
+    "chamomile": {
+        "uses": "Chamomile is used for its calming properties and is commonly consumed as a tea for relaxation and sleep.",
+        "howToUse": "Chamomile tea is made from dried chamomile flowers and can be enjoyed before bedtime.",
+        "sideEffects": "Chamomile is generally safe. Allergic reactions are rare."
+    },
+    "garlic": {
+        "uses": "Garlic is used for its flavor and is believed to have health benefits, including lowering cholesterol and blood pressure.",
+        "howToUse": "Garlic can be added to a wide range of dishes for flavor and potential health benefits.",
+        "sideEffects": "Garlic is safe for most people but may cause bad breath and digestive discomfort."
+    },
+    "basil": {
+        "uses": "Basil is a popular herb in Italian cuisine and is known for its aromatic flavor.",
+        "howToUse": "Basil leaves are used in pasta dishes, salads, and as a pizza topping.",
+        "sideEffects": "Basil is safe for most people. Rarely, it may cause allergic reactions."
+    },
+    "lemon balm": {
+        "uses": "Lemon balm is used for its calming effects and is often consumed as an herbal tea.",
+        "howToUse": "Lemon balm leaves can be steeped in hot water to make tea.",
+        "sideEffects": "Lemon balm is safe for most people. It may interact with certain medications."
+    },
+    "oregano": {
+        "uses": "Oregano is a versatile herb used in Mediterranean cuisine and has potential health benefits.",
+        "howToUse": "Oregano leaves are used in pasta sauces, soups, and as a pizza topping.",
+        "sideEffects": "Oregano is generally safe. Excessive consumption may cause upset stomach."
+    },
+    "sage": {
+        "uses": "Sage is used for its flavor and is believed to have medicinal properties.",
+        "howToUse": "Sage leaves can be used in stuffing, poultry dishes, and teas.",
+        "sideEffects": "Sage is safe for most people. Excessive consumption should be avoided."
+    },
+    "thyme": {
+        "uses": "Thyme is a culinary herb used in various dishes and is believed to have antioxidant properties.",
+        "howToUse": "Thyme leaves are used in soups, stews, and meat dishes.",
+        "sideEffects": "Thyme is safe for most people. Allergic reactions are rare."
+    },
+    "peppermint": {
+        "uses": "Peppermint is known for its refreshing flavor and is used in culinary and herbal applications.",
+        "howToUse": "Peppermint leaves can be used in teas, desserts, and as a flavoring agent.",
+        "sideEffects": "Peppermint is safe for most people. Large quantities may cause heartburn."
+    },
+    "echinacea": {
+        "uses": "Echinacea is used to support the immune system and is often taken as a supplement or herbal remedy.",
+        "howToUse": "Echinacea supplements are available in various forms, including capsules and teas.",
+        "sideEffects": "Echinacea is generally safe. Some people may experience allergic reactions."
+    },
+    "ginger": {
+        "uses": "Ginger is used for its flavor and digestive benefits. It is also used as a remedy for nausea and colds.",
+        "howToUse": "Ginger can be added to various dishes and used to make ginger tea.",
+        "sideEffects": "Ginger is generally safe. Some people may experience heartburn with excessive consumption."
+    },
+    "dandelion": {
+        "uses": "Dandelion is used in herbal medicine and is believed to have detoxifying properties.",
+        "howToUse": "Dandelion leaves can be used in salads, and dandelion root tea is popular.",
+        "sideEffects": "Dandelion is safe for most people. Allergic reactions are rare."
+    },
+    "nettle": {
+        "uses": "Nettle is used as an herbal remedy for allergies and is also consumed as nettle tea.",
+        "howToUse": "Nettle tea is made from dried nettle leaves and is known for its potential health benefits.",
+        "sideEffects": "Nettle is generally safe. Some people may experience stomach upset."
+    },
+    "holy basil": {
+        "uses": "Holy basil is considered sacred in some cultures and is used in traditional medicine and culinary applications.",
+        "howToUse": "Holy basil leaves can be used in teas, stir-fries, and curries.",
+        "sideEffects": "Holy basil is safe for most people. It may lower blood sugar levels."
+    },
+    "fennel": {
+        "uses": "Fennel is used as a culinary spice and is believed to aid digestion.",
+        "howToUse": "Fennel seeds can be used in cooking and to make fennel tea.",
+        "sideEffects": "Fennel is safe for most people. Some may be allergic to it."
+    }
+}

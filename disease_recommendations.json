@@ -1,0 +1,48 @@
+{
+    "diseases": [
+      {
+        "name": "Common Cold",
+        "symptoms": "Runny nose, sneezing, sore throat, cough",
+        "causes": "Viral infection",
+        "treatment": "Rest, hydration, over-the-counter cold medicine",
+        "ayurvedic_recommendations": [
+          "Drink ginger tea for relief.",
+          "Try honey and tulsi (basil) for soothing the throat."
+        ],
+        "recommendations": [
+          "Drink plenty of fluids.",
+          "Get plenty of rest.",
+          "Use a humidifier to ease congestion."
+        ]
+      },
+      {
+        "name": "Influenza (Flu)",
+        "symptoms": "Fever, chills, body aches, cough",
+        "causes": "Influenza virus",
+        "treatment": "Rest, antiviral medication (in severe cases)",
+        "ayurvedic_recommendations": [
+          "Take herbal preparations like Ayush Kwath.",
+          "Consume turmeric milk for its anti-inflammatory properties."
+        ],
+        "recommendations": [
+          "Stay home to prevent spreading the virus.",
+          "Take antiviral medication as prescribed."
+        ]
+      },
+      {
+        "name": "Stomach Flu",
+        "symptoms": "Nausea, vomiting, diarrhea, abdominal pain",
+        "causes": "Viral infection",
+        "treatment": "Rest, hydration, bland diet",
+        "ayurvedic_recommendations": [
+          "Use buttermilk with a pinch of roasted cumin seeds.",
+          "Chew fennel seeds for digestive relief."
+        ],
+        "recommendations": [
+          "Drink clear fluids to stay hydrated.",
+          "Avoid spicy or fatty foods."
+        ]
+      }
+    ]
+  }
+  

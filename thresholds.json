@@ -1,0 +1,30 @@
+{
+    "cholesterol": {
+        "normal": {
+            "min": 120,
+            "max": 200,
+            "recommendation": "Maintain a healthy diet and lifestyle.",
+            "ayurveda": "Consider Ayurveda herbs like Arjuna or Guggulu for cholesterol management."
+        },
+        "high": {
+            "min": 201,
+            "max": 240,
+            "recommendation": "Consult a healthcare professional for guidance.",
+            "ayurveda": "Consult an Ayurvedic practitioner for personalized Ayurveda treatment."
+        }
+    },
+    "hemoglobin": {
+        "normal": {
+            "min": 12,
+            "max": 16,
+            "recommendation": "Maintain a balanced diet rich in iron.",
+            "ayurveda": "Try Ayurveda herbs like Punarnava for improving hemoglobin levels."
+        },
+        "low": {
+            "min": 0,
+            "max": 11.9,
+            "recommendation": "Consult a healthcare professional for evaluation and treatment.",
+            "ayurveda": "Consult an Ayurvedic practitioner for personalized Ayurveda treatment."
+        }
+    }
+}

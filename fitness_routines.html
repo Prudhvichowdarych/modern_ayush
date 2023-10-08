@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYURVEDA</title>
+    <link rel="stylesheet" href="fitness.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+        <div class="logo">
+        <img src="ayush.jpg" width="150px" height="100px">
+    </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="ecom.html">HOME</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="product details.html">About</a></li>
+                <li><a href="pra.html">Chat Bot</a></li>
+                <li><a href="accounts.html">Account</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+    <h1>Fitness Measure</h1>
+    <div class="account-page">
+        <div class="container">
+           <div class="row">
+              <div class="col-2">
+                  <image src="fitness.jpg" width="100%">
+              </div>
+    <div class="container">
+        <form>
+            <label for="height">Height (meters):</label>
+            <input type="number" id="height" step="0.01" required>
+
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" step="0.01" required>
+
+            <div class="button-container">
+                <button type="button" id="calculate-button">Calculate BMI</button>
+                <button type="button" id="reset-button">Reset</button>
+            </div>
+        </form>
+
+        <div id="bmi-result" class="hidden">
+            <h2>Your BMI:</h2>
+            <p id="bmi-value"></p>
+            <h2>Recommendations:</h2>
+            <p id="recommendations"></p>
+        </div>
+    </div>
+
+    <script src="fitness.js"></script>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our app</h3>
+                    <p>Download App for Anroid and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <a href="#">PlayStore</a>
+                        <a href="#">AppStore</a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="">
+                    <p>Download App for Anroid and ios mobile phone.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">CopyRight 2023</p>
+        </div>
+    </div>
+    <!--js for toggle menu-->
+    <script>
+        var MenuItems=document.getElementById("MenuItems");
+        MenuItems.style.maxHeight="0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight=="0px")
+            {
+                MenuItems.style.maxHeight="200px"
+            }
+            else{
+                MenuItems.style.maxHeight="0px"
+            }
+        }
+    </script>
+</body>
+</html>

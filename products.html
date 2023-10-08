@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+    <div class="logo">
+        <img src="ayush.jpg" width="150px" height="100px"> 
+    </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="ecom.html">HOME</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="product details.html">About</a></li>
+                <li><a href="">Chat Bot</a></li>
+                <li><a href="accounts.html">Account</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+        <img src="menu.jpg" class="menu-icon" onclick="menutoggle()">
+    </div>
+    </div>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default sorting</option>
+                <option>Short by Price</option>
+                <option>Short by Popularity</option>
+                <option>Short by rating</option>
+                <option>Short by sale</option>
+            </select>
+
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="Anti fever.jpg">
+                <h4>Anti fever syrup</h4>
+                <p>$1.00</p>
+            </div>
+            <div class="col-4">
+                <img src="facial gel.jpg">
+                <h3>Facial Gel</h3>
+                <h3>$2.00</h3>
+            </div>
+            <div class="col-4">
+                <img src="glow.jpg">
+                <h3>Glow</h3>
+                <h3>$3.00</h3>
+            </div>
+            <div class="col-4">
+                <img src="sugar control.jpg">
+                <h3>Sugar Control</h3>
+                <h3>$1.50</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="allergan.jpg">
+                <h3>allergan</h3>
+                <h3>$1.00</h3>
+            </div>
+            <div class="col-4">
+                <img src="alp madhu.jpg">
+                <h3>alp madhu</h3>
+                <h3>$2.00</h3>
+            </div>
+            <div class="col-4">
+                <img src="biohart.jpg">
+                <h3>biohart</h3>
+                <h3>$3.00</h3>
+            </div>
+            <div class="col-4">
+                <img src="blisfull.jpg">
+                <h3>blisfull</h3>
+                <h3>$1.50</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="cardimap.jpg">
+                <h3>cardimap</h3>
+                <h3>$1.00</h3>
+            </div>
+            <div class="col-4">
+                <img src="kerala.jpg">
+                <h3>saraswathastra</h3>
+                <h3>$2.00</h3>
+            </div>
+            <div class="col-4">
+                <img src="slimming.jpg">
+                <h3>slimming</h3>
+                <h3>$3.00</h3>
+            </div>
+            <div class="col-4">
+                <img src="sugar control.jpg">
+                <h3>Sugar Control</h3>
+                <h3>$1.50</h3>
+            </div>
+        </div>
+        <div class="pge-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+
+
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our app</h3>
+                <p>Download App for Anroid and ios mobile phone.</p>
+                <div class="app-logo">
+                    <a href="#">PlayStore</a>
+                        <a href="#">AppStore</a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="">
+                <p>Download App for Anroid and ios mobile phone.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">CopyRight 2023</p>
+    </div>
+</div>
+<!--js for toggle menu-->
+<script>
+    var MenuItems=document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")
+        {
+            MenuItems.style.maxHeight="200px"
+        }
+        else{
+            MenuItems.style.maxHeight="0px"
+        }
+    }
+</script>
+</body>
+</html>
